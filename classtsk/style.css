@@ -1,0 +1,51 @@
+ body {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+ }
+ .header {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(34, 34, 34);
+ }
+ #languages {
+    background: none;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    margin-left: 1000px;
+    font-size: 20px;
+ }
+ #options {
+    color: black;
+ }
+ #headset {
+    font-size: 30px;
+    color: yellow;
+    margin-left: 70px;
+    margin-top: 15px;
+ }
+ #number {
+    position: absolute;
+    top: 0px;
+    left: 1270px;
+    bottom: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+ }
+ .container{
+    width: 100%;
+    height: 700px;
+    padding-left: 400px;
+    padding-right: 300px;
+    background-color: rgb(236, 240, 241);
+ }
+ #logo {
+    height: 35px;
+    margin-top: 30px;
+ }
+ .buttons {
+    position: absolute;
+    left: 1120px;
+    top: 110px;
+
+ }
