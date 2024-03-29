@@ -1,0 +1,17 @@
+#celery{
+    height: 40px;
+    width: 500px;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+h5{
+    font-weight: lighter;
+}
+#button{
+    height: 30px;
+    width: 200px;
+    margin-left: 10px;
+}
