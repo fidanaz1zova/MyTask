@@ -243,9 +243,13 @@ let api = [
 
 const homePage = document.querySelector(".homePage")
 const basketPage = document.querySelector(".basketPage")
-const wishlistPage = document.querySelector("wishlistPage")
+const wishlistPage = document.querySelector(".wishlistPage")
 
-api.forEach (elem => {
+api.forEach ((elem) => {
+    createCard (elem, homePage) ;
+});
+
+function createCard (elem, pagE) {
 let card = document.createElement ("div")
 card.className = "card"
 card.style.width = "230px"
@@ -278,14 +282,21 @@ card.append (img)
 card.append (prodTitle)
 card.append (btn1)
 card.append (btn2)
-})
-
-// let card.document.querySelectorAll (".card")
-// let basketPage.document.querySelectorAll (".basketPage")
 
 
-// document.getElementById('1').onclick = function(){addToCart('card')};
-// document.getElementById('2').onclick = function(){addToCart('card')};
-// document.getElementById('3').onclick = function(){addToCart('card')};
-// document.getElementById('cartItems').innerText = JSON.stringify(cart);
 
+btn1.setAttribute ("data", elem.id);
+btn2.setAttribute ("data", elem.id);
+
+btn1.addEventListener ("click", function (e) {
+    let elem = api.find ((elem) => elem.id == e.target.getAttribute ("data"));
+    createCard (elem, basketPage)
+});
+
+btn2.addEventListener ("click", function (e) {
+    let elem = api.find ((elem) => elem.id == e.target.getAttribute ("data"));
+    createCard (elem, wishlistPage)
+});
+
+card.append(img, prodTitle, btn1, btn2) ;
+}
