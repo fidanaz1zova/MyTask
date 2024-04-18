@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    width: 100%;
+    height: 7000px;
+    padding: 110px;
+    background-color: rgba(190, 191, 191, 0.589);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.introPage {
+    width: 1300px;
+    height: 1200px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius:50px;
+    background-color: rgba(190, 191, 191, 0.589);
+    position: relative;
+}
+.introttl{
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 1000px;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.shopcollect {
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 500px;
+    width: 200px;
+    height: 60px;
+    border: 3px solid rgb(99, 0, 0) ;
+    border-radius: 20px;
+    background-color: rgb(232, 0, 0);
+    color: rgb(242, 226, 213);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+}
+.caption-1 {
+    display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-top: 70px;
+   margin-left: 150px;
+   width: 300px;
+   height: 70px;
+   border: 1px solid rgb(61, 1, 1) ;
+   border-radius: 10px;
+   color:  rgb(61, 1, 1);
+}
+.cstmnum {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cstmplus {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cstmitem {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fashionimg {
+    width: 780px;
+    height: 550px;
+    left: 450px;
+    top: 100px;
+    position: absolute;
+}
+.prdimages {
+    width: 1200px;
+    height: 320px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+#img1 {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 280px;
+    height: 200px;
+}
+#img2 {
+    margin-top: 50px;
+    width: 320px;
+    height: 260px;
+}
+#img3 {
+    margin-top: 60px;
+    width: 280px;
+    height: 210px;
+}
+#img4 {
+    margin-top: 50px;
+    width: 340px;
+    height: 220px;
+}
+.hometitle {
+    width: 500px;
+    height: 70px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-left: 400px;
+    padding-left: 150px;
+    padding-top: 10px;
+    background-image: url(./images/images.jpg);
+    color: rgb(235, 235, 192);
+    font-size: 45px;
+}
+.homePage {
+    width: 100%;
+    height: 2500px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-image: url(./images/wallpaper.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+width : 270px;
+height : 350px;
+border : 1px solid black;
+border-radius : 100px 100px 0 0;
+background : white;
+}
+.baskettitle {
+    width: 500px;
+    height: 70px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color:  rgb(249, 243, 188);
+    margin-left: 400px;
+    padding-left: 120px;
+}
+.favtitle {
+    width: 500px;
+    height: 70px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color:  rgba(159, 4, 198, 0.582);
+    margin-left: 400px;
+    padding-left: 120px;
+}
+.basketPage {
+    width: 100%;
+    height: 1000px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color:  rgb(249, 243, 188)
+
+}
+.favorites {
+    width: 100%;
+    height: 1000px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgba(159, 4, 198, 0.582);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.prodTitle {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prodPrice {
+    width : 75px;
+    height: 35px;
+    border : 2px solid rgb(3, 37, 62);
+    background-color: rgb(77, 118, 178);
+    color: rgb(2, 2, 45);
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.basketbtn {
+    width : 150px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 800;
+    border: 2px solid rgba(149, 99, 0, 0.959);
+    border-radius : 20px;
+    background-color: rgba(231, 164, 28, 0.959);
+    margin-top: 25px;
+    margin-left: 60px;
+}
+.card {
+    margin-top: 50px;
+    margin-left:30px;
+}
+.img {
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.deletebtn {
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+
+/* .card2 {
+    width : 600px;
+    height : 100px;
+    border : 1px solid rgb(255, 0, 0);
+    background : white;
+    } */
+
