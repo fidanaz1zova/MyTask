@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(78, 54, 17);
+}
+.inp {
+  display: flex;
+  flex-direction: row;
+  margin-left: 250px;
+}
+input {
+  width: 180px;
+  height: 30px;
+  border: 1px solid rgb(27, 19, 1);
+  border-radius: 20px;
+  background-color: rgb(236, 227, 206);
+  margin-left: 5px;
+}
+.tabledata {
+  background-color: rgb(78, 54, 17);
+}
+.table {
+  width: 700px;
+  margin-left: 300px;
+  background-color: rgb(109, 88, 56);
+  margin-top: 20px;
+}
+th {
+  font-size: 20px;
+  height: 50px;
+  background-color: rgb(231, 214, 186);
+}
+td {
+  background-color: rgb(231, 214, 186);
+}
+.submitbtn {
+  width: 80px;
+  height: 25px;
+  border: 3 solid rgb(0, 0, 0);
+  background-color: green;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.delbtn {
+  width: 60px;
+  height: 30px;
+  background-color: rgb(190, 4, 4);
+}
